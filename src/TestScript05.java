@@ -5,6 +5,7 @@
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.assertEquals;
 import java.io.File;
+import java.util.Date;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.*;
 import org.openqa.selenium.firefox.FirefoxBinary;
@@ -27,7 +28,10 @@ public class TestScript05 {
 
 	private WebDriver driver; // Selenium control driver
 	private String baseUrl; // baseUrl of website Guru99
-	
+	public void startTime() {
+		Date st = new Date();
+		System.out.println(st);
+	}
 
 	/**
 	 * create test data for testing The test data include set of username,
