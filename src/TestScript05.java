@@ -30,8 +30,11 @@ public class TestScript05 {
 	private String baseUrl; // baseUrl of website Guru99
 	public void startTime() {
 		Date st = new Date();
-		System.out.println(st);
-	}
+		System.out.println(st);}
+	public void endT() {
+		Date ett = new Date();
+		System.out.println(ett);
+		}
 
 	/**
 	 * create test data for testing The test data include set of username,
